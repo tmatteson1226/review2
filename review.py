@@ -17,4 +17,12 @@
 # When the loop is finished, print "Who do we appreciate?"
 # Remember how range can be used to create the list [2,4,6,8]
 # When complete, commit to github and submit a pull request!
-
+aList = [2,4,6,8,'who do we appreciate?']
+counter = -1
+keepGoing = True
+while (keepGoing):
+    counter = counter + 1
+    if counter == 5:
+        keepGoing = False
+    else:
+        print aList[counter]
